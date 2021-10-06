@@ -14,8 +14,27 @@
         <script type="text/javascript" src="gaming-1.0.js" async defer></script>
     </head>
     <body>
-        <!--[if lt IE 7]>
-            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
+        <div>
+            <div class="buttons">
+                <button class="button-40">Rock</button>
+                <button class="button-40">Paper</button>
+                <button class="button-40">Scissors</button>
+            </div>
+            <div class="output">
+                <h1>output: </h1>
+                <text id="output"></text>
+            </div>
+        </div>  
+        <div class="scoreboard">
+            <h1>scoreboard</h1>
+            <div class="score-reporter">
+                <text class="win-label">your wins: </text>
+                <text id="humanScore" class="score">0</text>
+            </div>  
+            <div class="score-reporter">
+                <text class="win-label">computer wins: </text>
+                <text id="computerScore" class="score">0</text>
+            </div>
+        </div>
     </body>
 </html>
